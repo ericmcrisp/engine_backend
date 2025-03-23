@@ -1,0 +1,6 @@
+# Editable Git install with no remote (engine_backend==0.1.0)
+-e /Users/admin/Documents/dev/rust/engine_backend
+maturin==1.8.3
+semantic-version==2.10.0
+setuptools==77.0.3
+setuptools-rust==1.11.0
