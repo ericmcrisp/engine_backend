@@ -1,0 +1,11 @@
+[package]
+name = "engine_backend"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pyo3 = { version = "0.18", features = ["extension-module"] }
+
+[lib]
+name = "engine_backend"  # This name should match your Python module name
+crate-type = ["cdylib"]
